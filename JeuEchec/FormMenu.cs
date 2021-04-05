@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace JeuEchec
@@ -20,12 +13,6 @@ namespace JeuEchec
         {
             throw new System.NotImplementedException();
         }
-
-        private void btnLancerPatrie_Click(object sender, EventArgs e)
-        {
-            throw new System.NotImplementedException();
-        }
-
         private void btnLancerPartie_Click(object sender, EventArgs e)
         {
             throw new System.NotImplementedException();

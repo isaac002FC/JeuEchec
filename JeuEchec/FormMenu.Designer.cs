@@ -37,7 +37,6 @@
             this.cmbJoueur2 = new System.Windows.Forms.ComboBox();
             this.lblJoueur1 = new System.Windows.Forms.Label();
             this.lblJoueur2 = new System.Windows.Forms.Label();
-            this.ribbonSeparator1 = new Microsoft.Office.Tools.Ribbon.RibbonSeparator();
             this.btnCharger = new System.Windows.Forms.Button();
             this.btnSauvegarder = new System.Windows.Forms.Button();
             this.btnModifierJoueur = new System.Windows.Forms.Button();
@@ -109,15 +108,6 @@
             this.lblJoueur2.TabIndex = 6;
             this.lblJoueur2.Text = "Joueur #2";
             // 
-            // ribbonSeparator1
-            // 
-            this.ribbonSeparator1.Enabled = true;
-            this.ribbonSeparator1.Name = "";
-            this.ribbonSeparator1.Position = Microsoft.Office.Tools.Ribbon.RibbonPosition.Default;
-            this.ribbonSeparator1.Tag = null;
-            this.ribbonSeparator1.Title = "";
-            this.ribbonSeparator1.Visible = true;
-            // 
             // btnCharger
             // 
             this.btnCharger.Location = new System.Drawing.Point(43, 390);
@@ -174,9 +164,7 @@
 
         private System.Windows.Forms.Button btnCharger;
         private System.Windows.Forms.Button btnSauvegarder;
-
-        private Microsoft.Office.Tools.Ribbon.RibbonSeparator ribbonSeparator1;
-
+        
         private System.Windows.Forms.Label lblJoueur2;
 
         private System.Windows.Forms.ComboBox cmbJoueur2;

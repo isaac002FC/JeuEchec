@@ -49,6 +49,12 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="FormEchiquier.cs">
+          <SubType>Form</SubType>
+        </Compile>
+        <Compile Include="FormEchiquier.Designer.cs">
+          <DependentUpon>FormEchiquier.cs</DependentUpon>
+        </Compile>
         <Compile Include="FormMenu.cs">
             <SubType>Form</SubType>
         </Compile>
