@@ -7,17 +7,39 @@
       <e p="JeuEchec" t="IncludeRecursive">
         <e p="App.config" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="FormEchiquier.cs" t="Include" />
-        <e p="FormEchiquier.Designer.cs" t="Include" />
-        <e p="FormMenu.cs" t="Include" />
-        <e p="FormMenu.Designer.cs" t="Include" />
-        <e p="FormMenu.resx" t="Include" />
-        <e p="Image" t="Include">
-          <e p="pieces_b" t="Include" />
-          <e p="pieces_n" t="Include" />
+        <e p="Controlleurs" t="Include">
+          <e p="JeuEchec.cs" t="Include" />
+          <e p="Partie.cs" t="Include" />
         </e>
-        <e p="JeuEchec.cs" t="Include" />
+        <e p="Images" t="Include">
+          <e p="chevalier-b.bmp" t="Include" />
+          <e p="chevalier-n.bmp" t="Include" />
+          <e p="fou-b.bmp" t="Include" />
+          <e p="fou-n.bmp" t="Include" />
+          <e p="pion-b.bmp" t="Include" />
+          <e p="pion-n.bmp" t="Include" />
+          <e p="reine-b.bmp" t="Include" />
+          <e p="reine-n.bmp" t="Include" />
+          <e p="roi-b.bmp" t="Include" />
+          <e p="roi-n.bmp" t="Include" />
+          <e p="tour-b.bmp" t="Include" />
+          <e p="tour-n.bmp" t="Include" />
+        </e>
         <e p="JeuEchec.csproj" t="IncludeRecursive" />
+        <e p="Modeles" t="Include">
+          <e p="Case.cs" t="Include" />
+          <e p="Echiquier.cs" t="Include" />
+          <e p="Joueur.cs" t="Include" />
+          <e p="Pieces" t="Include">
+            <e p="Chevalier.cs" t="Include" />
+            <e p="Fou.cs" t="Include" />
+            <e p="Piece.cs" t="Include" />
+            <e p="Pion.cs" t="Include" />
+            <e p="Reine.cs" t="Include" />
+            <e p="Roi.cs" t="Include" />
+            <e p="Tour.cs" t="Include" />
+          </e>
+        </e>
         <e p="obj" t="ExcludeRecursive" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
@@ -25,6 +47,14 @@
           <e p="Resources.resx" t="Include" />
           <e p="Settings.Designer.cs" t="Include" />
           <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="Vues" t="Include">
+          <e p="FormEchiquier.cs" t="Include" />
+          <e p="FormEchiquier.Designer.cs" t="Include" />
+          <e p="FormEchiquier.resx" t="Include" />
+          <e p="FormMenu.cs" t="Include" />
+          <e p="FormMenu.Designer.cs" t="Include" />
+          <e p="FormMenu.resx" t="Include" />
         </e>
       </e>
       <e p="JeuEchec.sln" t="IncludeFlat" />

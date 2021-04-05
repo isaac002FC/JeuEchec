@@ -49,23 +49,31 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="FormEchiquier.cs">
+        <Compile Include="Controlleurs\JeuEchec.cs" />
+        <Compile Include="Controlleurs\Partie.cs" />
+        <Compile Include="Modeles\Case.cs" />
+        <Compile Include="Modeles\Echiquier.cs" />
+        <Compile Include="Modeles\Joueur.cs" />
+        <Compile Include="Modeles\Pieces\Chevalier.cs" />
+        <Compile Include="Modeles\Pieces\Fou.cs" />
+        <Compile Include="Modeles\Pieces\Piece.cs" />
+        <Compile Include="Modeles\Pieces\Pion.cs" />
+        <Compile Include="Modeles\Pieces\Reine.cs" />
+        <Compile Include="Modeles\Pieces\Roi.cs" />
+        <Compile Include="Modeles\Pieces\Tour.cs" />
+        <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="Vues\FormEchiquier.cs">
           <SubType>Form</SubType>
         </Compile>
-        <Compile Include="FormEchiquier.Designer.cs">
+        <Compile Include="Vues\FormEchiquier.Designer.cs">
           <DependentUpon>FormEchiquier.cs</DependentUpon>
         </Compile>
-        <Compile Include="FormMenu.cs">
-            <SubType>Form</SubType>
+        <Compile Include="Vues\FormMenu.cs">
+          <SubType>Form</SubType>
         </Compile>
-        <Compile Include="FormMenu.Designer.cs">
-            <DependentUpon>FormMenu.cs</DependentUpon>
-        </Compile>
-        <Compile Include="JeuEchec.cs" />
-        <Compile Include="Properties\AssemblyInfo.cs" />
-        <EmbeddedResource Include="FormMenu.resx">
+        <Compile Include="Vues\FormMenu.Designer.cs">
           <DependentUpon>FormMenu.cs</DependentUpon>
-        </EmbeddedResource>
+        </Compile>
         <EmbeddedResource Include="Properties\Resources.resx">
             <Generator>ResXFileCodeGenerator</Generator>
             <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -75,6 +83,12 @@
             <AutoGen>True</AutoGen>
             <DependentUpon>Resources.resx</DependentUpon>
         </Compile>
+        <EmbeddedResource Include="Vues\FormEchiquier.resx">
+          <DependentUpon>FormEchiquier.cs</DependentUpon>
+        </EmbeddedResource>
+        <EmbeddedResource Include="Vues\FormMenu.resx">
+          <DependentUpon>FormMenu.cs</DependentUpon>
+        </EmbeddedResource>
         <None Include="Properties\Settings.settings">
             <Generator>SettingsSingleFileGenerator</Generator>
             <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -89,8 +103,18 @@
         <None Include="App.config" />
     </ItemGroup>
     <ItemGroup>
-      <Folder Include="Image\pieces_b" />
-      <Folder Include="Image\pieces_n" />
+      <Content Include="Images\chevalier-b.bmp" />
+      <Content Include="Images\chevalier-n.bmp" />
+      <Resource Include="Images\fou-b.bmp" />
+      <Resource Include="Images\fou-n.bmp" />
+      <Resource Include="Images\pion-b.bmp" />
+      <Resource Include="Images\pion-n.bmp" />
+      <Resource Include="Images\reine-b.bmp" />
+      <Resource Include="Images\reine-n.bmp" />
+      <Resource Include="Images\roi-b.bmp" />
+      <Resource Include="Images\roi-n.bmp" />
+      <Resource Include="Images\tour-b.bmp" />
+      <Resource Include="Images\tour-n.bmp" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

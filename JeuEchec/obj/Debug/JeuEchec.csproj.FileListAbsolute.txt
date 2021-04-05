@@ -10,3 +10,5 @@ D:\Document\Notes\Session 4 - Technique de l'informatique\COO\JeuEchec\JeuEchec\
 D:\Document\Notes\Session 4 - Technique de l'informatique\COO\JeuEchec\JeuEchec\bin\Debug\Microsoft.Office.Tools.Common.v9.0.dll
 D:\Document\Notes\Session 4 - Technique de l'informatique\COO\JeuEchec\JeuEchec\obj\Debug\JeuEchec.FormMenu.resources
 D:\Document\Notes\Session 4 - Technique de l'informatique\COO\JeuEchec\JeuEchec\obj\Debug\JeuEchec.csproj.CopyComplete
+D:\Document\Notes\Session 4 - Technique de l'informatique\COO\JeuEchec\JeuEchec\obj\Debug\JeuEchec.FormEchiquier.resources
+D:\Document\Notes\Session 4 - Technique de l'informatique\COO\JeuEchec\JeuEchec\obj\Debug\JeuEchec.g.resources
